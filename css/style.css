@@ -1,0 +1,97 @@
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: lato, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+main {
+    background: url("../images/Black\ sand\ background.jpeg");
+    color: white;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px black solid;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1,h2 {
+    text-align:center;
+}
+.container {
+    display: flex;
+}
+.container div {
+    flex-grow: 1;
+    padding: 0 5px;
+}
+a {
+    color: white;
+    font-weight: bold;
+}
+main img {
+    border: 2px black solid;
+}
+
+header {
+    display: flex;
+    color: white;
+    margin: 0;
+    background: url("../images/Dark\ leaf\ background.jpeg");
+    border-bottom: 2px black solid;
+}
+header div {
+    flex-grow: 1;
+}
+.profilepic-box, .title-box, .nav-box {
+    text-align: center;
+    margin: auto;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.links div {
+    padding: 7px 0;
+}
+.links a {
+    border: 2px solid black;
+    background: linear-gradient(white,#121212);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+.title-box {
+    font-size: 50px;
+}
+
+
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+section{
+    text-align: center;
+    padding: 50px 80px;
+    background-image: url("../images/woodtexture.png");
+    color: white;
+}
+
+
+footer{
+    background-color: rgb(34, 31, 31);
+    text-align: center;
+    color: white;
+}
+
+.test1{
+    border-radius: 50%;
+}
